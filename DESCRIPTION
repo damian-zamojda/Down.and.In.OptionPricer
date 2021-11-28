@@ -1,0 +1,11 @@
+Package: Down.and.In.OptionPricer
+Type: Package
+Title: Estimate price of the Down and In Option
+Version: 1.0
+Date: 2021-01-09
+Author: Damian Żamojda
+Maintainer: Damian Żamojda <damian.zamojda@gmail.com>
+Description: MonteCarlo estimation of Down and In Barrier Option.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.5)
+LinkingTo: Rcpp
