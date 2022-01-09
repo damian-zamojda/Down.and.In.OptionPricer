@@ -17,16 +17,21 @@ Algorithm estimates Monte Carlo approximation of the option theoretical price 10
 ### Below is a proposed method of installing the package and an example of its use.
 
 #### Install necessary packages
-library('devtools')
 
+```
+library('devtools')
 library('tidyverse')
+```
 
 #### Install project package which returns estimation of Down and In Option prices
-devtools::install_github("https://github.com/damian-zamojda/Down.and.In.OptionPricer.git")
 
+```
+devtools::install_github("https://github.com/damian-zamojda/Down.and.In.OptionPricer.git")
 library('Down.and.In.OptionPricer')
+```
+
 #### Estimation of price with default parameters
 
 #### Function for Call or Put Option
-- Down.and.In.OptionPricer::CallDownAndInPrice()
-- Down.and.In.OptionPricer::PutDownAndInPrice()
+- `Down.and.In.OptionPricer::CallDownAndInPrice()`
+- `Down.and.In.OptionPricer::PutDownAndInPrice()`
